@@ -6,7 +6,7 @@ import CustomCursor from "@/components/CustomCursor";
 import FilmGrain from "@/components/FilmGrain";
 import Terminal from "@/components/Terminal";
 import AudioManager from "@/components/AudioManager";
-import CommandPalette from "@/components/CommandPalette";
+import CommandPalette from "@/components/CommandPallete";
 import KonamiGravity from "@/components/KonamiGravity";
 import ConsoleArt from "@/components/ConsoleArt";
 import TabManager from "@/components/TabManager";
