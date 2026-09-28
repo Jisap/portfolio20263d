@@ -1,22 +1,22 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Header from "@/components/Header";
+import Header from "@/components/ui/Header";
 
-const ScrollyCanvas = dynamic(() => import("@/components/ScrollyCanvas"), { ssr: false });
+const ScrollyCanvas = dynamic(() => import("@/components/sections/ScrollyCanvas"), { ssr: false });
 
-import ClientOnly from "@/components/ClientOnly";
+import ClientOnly from "@/components/providers/ClientOnly";
 
-import About from "@/components/About";
-import XRayText from "@/components/XRayText";
-import HorizontalProjects from "@/components/HorizontalProjects";
-import Footer from "@/components/Footer";
-import GlitchSection from "@/components/GlitchSection";
+import About from "@/components/sections/About";
+import XRayText from "@/components/sections/XRayText";
+import HorizontalProjects from "@/components/sections/HorizontalProjects";
+import Footer from "@/components/sections/Footer";
+import GlitchSection from "@/components/ui/GlitchSection";
 //import Experience from "@/components/Experience";
-import WaveDivider from "@/components/WaveDivider";
-import { LabGrid, FAQ } from "@/components/AdditionalSections";
-import { CalendarWidget, WeatherWidget } from "@/components/Widgets";
-import GithubProfile from "@/components/GithubProfile";
+import WaveDivider from "@/components/ui/WaveDivider";
+import { LabGrid, FAQ } from "@/components/sections/AdditionalSections";
+import { CalendarWidget, WeatherWidget } from "@/components/ui/Widgets";
+import GithubProfile from "@/components/sections/GithubProfile";
 
 export default function Home() {
   return (

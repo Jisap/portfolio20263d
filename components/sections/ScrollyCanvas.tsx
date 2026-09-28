@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useMotionValueEvent, useVelocity, useSpring } from "framer-motion";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../providers/ThemeContext";
 import Overlay from "./Overlay";
 import Preloader from "./Preloader";
 
@@ -82,7 +82,7 @@ const getFrameString = (index: number) => {
  *
  * @example
  * // app/page.tsx
- * import ScrollyCanvas from "@/components/ScrollyCanvas";
+ * import ScrollyCanvas from "@/components/sections/ScrollyCanvas";
  *
  * export default function Home() {
  *   return (

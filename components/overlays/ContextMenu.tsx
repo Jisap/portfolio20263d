@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Home, Briefcase, User, Mail, Volume2, VolumeX, Terminal, Search } from "lucide-react";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 
 /**
  * Componente de Menú Contextual Personalizado (Right-Click Menu).

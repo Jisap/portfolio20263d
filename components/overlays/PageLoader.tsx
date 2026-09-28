@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTheme } from "./ThemeContext"; // Asumimos que este contexto gestiona el estado global de carga
+import { useTheme } from "../providers/ThemeContext"; // Asumimos que este contexto gestiona el estado global de carga
 
 /**
  * Componente de Carga de Página Cinemática (Page Loader).

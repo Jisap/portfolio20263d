@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../providers/ThemeContext";
 
 /**
  * Componente de Efecto CRT / Scanlines (Líneas de Escaneo).

@@ -7,7 +7,7 @@ import {
   Activity, Zap, Shield, HardDrive, Clock, MousePointer2, Type,
   Settings, RefreshCw, Terminal, Eye, Volume2, Database, Wifi
 } from "lucide-react";
-import { CalendarWidget, WeatherWidget } from "./Widgets";
+import { CalendarWidget, WeatherWidget } from "../ui/Widgets";
 import VisitorTracker from "./VisitorTracker";
 import MusicPlayer from "./MusicPlayer";
 

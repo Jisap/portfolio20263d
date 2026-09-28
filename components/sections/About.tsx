@@ -47,7 +47,7 @@ const bioText = "Hi, I’m Jayanta Mondal — a BCA (Hons) student from Kolkata,
  *
  * @example
  * // app/page.tsx
- * import About from "@/components/About";
+  * import About from "@/components/sections/About";
  *
  * export default function Home() {
  *   return (

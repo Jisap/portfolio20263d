@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Settings, X, Cpu, Monitor, Volume2, Waves } from "lucide-react";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../providers/ThemeContext";
 
 /**
  * Componente de Panel de Configuración Deslizante (Settings Drawer).

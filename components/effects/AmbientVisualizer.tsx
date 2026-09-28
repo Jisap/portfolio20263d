@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 
 /**
  * Componente de Visualizador Ambiental (Idle Visualizer / Screensaver).

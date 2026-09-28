@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence, MotionValue } from "framer-motion";
 import { Home, User, Briefcase, Mail, Terminal, Settings, Globe, LayoutGrid } from "lucide-react";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../providers/ThemeContext";
 
 // Definición centralizada de los elementos del Dock.
 // Facilita la adición o reordenación de iconos sin tocar la lógica de renderizado.

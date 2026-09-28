@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import GlitchText from "./GlichText";
+import GlitchText from "./GlitchText";
 import Logo3D from "./Logo3D";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 import { Volume2, VolumeX, Terminal as TerminalIcon, Wifi, Battery } from "lucide-react";
 
 /**
@@ -52,7 +52,7 @@ const links = [
  *
  * @example
  * // app/layout.tsx
- * import Header from "@/components/Header";
+  * import Header from "@/components/ui/Header";
  *
  * export default function Layout({ children }: { children: React.ReactNode }) {
  *   return (

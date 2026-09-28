@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, Pause, SkipBack, SkipForward, Music, Volume2, VolumeX } from "lucide-react";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 
 /**
  * Componente de Reproductor de Música Ambiental (Music Player).

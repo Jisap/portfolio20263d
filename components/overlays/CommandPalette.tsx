@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 import { Search, Command, Briefcase, User, Mail, VolumeX, Volume2, Monitor } from "lucide-react";
 
 /**

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../providers/ThemeContext";
 
 /**
  * Componente de Fondo de Píxeles Interactivo (Pixel Background).

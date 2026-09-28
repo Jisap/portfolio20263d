@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
-import { useAudio } from "./AudioManager";
+import { useAudio } from "../providers/AudioManager";
 
 /**
  * Componente de Terminal Interactiva.
