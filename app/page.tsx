@@ -12,7 +12,7 @@ import XRayText from "@/components/XRayText";
 import HorizontalProjects from "@/components/HorizontalProjects";
 import Footer from "@/components/Footer";
 import GlitchSection from "@/components/GlitchSection";
-import Experience from "@/components/Experience";
+//import Experience from "@/components/Experience";
 import WaveDivider from "@/components/WaveDivider";
 import { LabGrid, FAQ } from "@/components/AdditionalSections";
 import { CalendarWidget, WeatherWidget } from "@/components/Widgets";
